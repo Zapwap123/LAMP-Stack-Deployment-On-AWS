@@ -111,10 +111,10 @@ ssh -i lamp-key.pem ec2-user@<Private-EC2-IP>
 Your PHP `.env` file contains:
 
 ```
-DB_HOST=lamp-db-main.c1qus6oke9k5.eu-west-1.rds.amazonaws.com
-DB_NAME=lamp_db_main
-DB_USER=admin
-DB_PASSWORD=LampLabPass123!
+DB_HOST=<Your-DB-Host>
+DB_NAME=<Your-DB-Name>
+DB_USER=<Your-DB-User>
+DB_PASSWORD=<Your-DB-Password>
 ```
 
 ---
