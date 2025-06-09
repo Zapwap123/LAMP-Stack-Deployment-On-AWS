@@ -10,6 +10,16 @@ This project demonstrates the deployment of a **highly available LAMP stack** (L
 
 ---
 
+## Live Application Link:
+
+```
+  LAMP-ALB-1526295973.eu-west-1.elb.amazonaws.com
+```
+
+## 🧱 Architecture Diagram
+
+![Architecture Diagram](./Archictecture Diagram for LAMP Stack App_Seth Anmawen.drawio.png)
+
 ## 📁 Project Structure
 
 | Component           | Description                                                  |
