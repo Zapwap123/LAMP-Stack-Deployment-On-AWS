@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="sJTiiSFfIRD0zPW1-tbI">
-    <mxGraphModel dx="1056" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1734" dy="2059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,6 +105,9 @@
         </mxCell>
         <mxCell id="ZPne-4STcDsU69kprWhm-59" value="Nat Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZPne-4STcDsU69kprWhm-15">
           <mxGeometry x="70" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPne-4STcDsU69kprWhm-99" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.bastionhost;" vertex="1" parent="ZPne-4STcDsU69kprWhm-15">
+          <mxGeometry x="28.5" y="75.5" width="24" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ZPne-4STcDsU69kprWhm-16" value="Internet&#xa;gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.internet_gateway;" vertex="1" parent="1">
           <mxGeometry x="390" y="90" width="60" height="60" as="geometry" />
@@ -292,6 +295,15 @@
         </mxCell>
         <mxCell id="ZPne-4STcDsU69kprWhm-95" value="Link:&amp;nbsp;LAMP-ALB-1526295973.eu-west-1.elb.amazonaws.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="245" y="-20" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPne-4STcDsU69kprWhm-102" value="Baston Host" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="290" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPne-4STcDsU69kprWhm-104" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.552;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.198;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="ZPne-4STcDsU69kprWhm-99" target="ZPne-4STcDsU69kprWhm-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="230" as="sourcePoint" />
+            <mxPoint x="950" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

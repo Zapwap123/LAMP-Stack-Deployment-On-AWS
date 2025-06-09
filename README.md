@@ -18,7 +18,7 @@ This project demonstrates the deployment of a **highly available LAMP stack** (L
 
 ## 🧱 Architecture Diagram
 
-![Architecture Diagram](./Archictecture-Diagram-for-LAMP-Stack-App.drawio.png)
+![Architecture Diagram](./Archictecture-Diagram-for-LAMP-Stack-App.png)
 
 ## 📁 Project Structure
 
