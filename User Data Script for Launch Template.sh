@@ -21,12 +21,12 @@ git clone https://github.com/mr-robertamoah/simple-lamp-stack.git
 cp -r simple-lamp-stack/* .
 cp simple-lamp-stack/.env.example .env
 
-# Overwrite .env with DB credentials
+# Overwrite .env with DB credentials, substitute with your actual Database Details
 cat <<EOF > .env
-DB_HOST=lamp-db-main.c1qus6oke9k5.eu-west-1.rds.amazonaws.com
-DB_NAME=lamp_db_main
-DB_USER=admin
-DB_PASSWORD=LampLabPass123!
+DB_HOST=<Your-DB-Host>
+DB_NAME=<Your-DB-Name>
+DB_USER=<Your-DB-User>
+DB_PASSWORD=<Your-DB-Password>
 EOF
 
 # Set correct permissions
