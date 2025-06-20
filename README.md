@@ -20,6 +20,16 @@ This project demonstrates the deployment of a **highly available LAMP stack** (L
 
 ![Architecture Diagram](./Archictecture-Diagram-for-LAMP-Stack-App.png)
 
+## Monitoring and Alerts with Cloudwatch
+
+![Monitorin](./Cloudwatch-Monitoring-Dashboard.png)
+
+![Alerts](./Monitoring-Alert-From-Cloudwatch.png)
+
+## Application Load Balancer
+
+![ALB](./LAMP-App-Application-Load-Balancer.png)
+
 ## 📁 Project Structure
 
 | Component           | Description                                                  |
